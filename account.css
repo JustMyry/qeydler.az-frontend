@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+.disable{
+    display: none;
+}
+.disable{
+    display: none;
+}
+
+.enable{
+    display: block;
+}
+.enable{
+    display: block;
+}
+/*******************************/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+
+header .logo {
+    width: 175px;
+}
+
+
+.navigators img {
+    width: 25px;
+    transition: 200ms;
+}
+
+.navigators a {
+    margin: 0px 15px 0px 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+.navigators img:hover {
+    scale: 1.2;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    max-width: 100rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.upperTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upperTitle img {
+    width: 2.2rem;
+    margin-left: 1rem;
+}
+
+.title h1 {
+    margin-bottom: 0.3rem;
+    font-size: 2.2em;
+    color: rgb(31, 31, 31);
+}
+
+.downTitle p {
+    font-size: 0.80rem;
+    color: rgb(85, 85, 85);
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.statisticCount {
+    font-weight: bold;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 40rem;
+}
+
+.leftSide img {
+    width: 12rem;
+    border: 0.32rem solid #ddd;
+    border-radius: 14rem;
+    margin-right: 2rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio {
+    color:rgb(85, 85, 85);
+    margin-bottom: 1rem;
+}
+
+.achivements {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.rigthSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialStatistics {
+    display: flex;
+    flex-direction: column;
+}
+
+.rigthSide button {
+    margin-bottom: 1rem;
+}
+
+.follow {
+    width: 10rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 1rem;
+    background-color: #FF731D;
+    box-shadow: 0.2rem 0.2rem 1rem #ddd;
+}
+
+.follow:hover {
+    background-color: #e96615;
+    cursor: pointer;
+}
+
+.follow:focus {
+    background-color: #b94b07;
+}
+
+.message {
+    width: 10rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 1rem;
+    background-color: #acfff4;
+    box-shadow: 0.2rem 0.2rem 1rem #ddd;
+    
+}
+
+.message:hover {
+    background-color: #79ffed;
+    cursor: pointer;
+}
+
+.message:focus {
+    background-color: #33f7dc;
+}
+
+.socialStatisticsPer {
+    margin-top: 0.32rem;
+    margin-bottom: 0.48rem;
+}
+
+
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.SharesChooseSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-top: 0.1rem solid #ddd;
+    border-right: 0.1rem solid #ddd;
+    border-bottom: 0.2rem solid #ddd;
+    border-left: 0.1rem solid #ddd;
+    margin-top: 8rem;
+    justify-content: space-between;
+}
+
+.RoutineChoice {
+    width: 50%;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    border-top: 0.2rem solid #ddd;
+    border-right: 0.2rem solid #ddd;
+    border-left: 0.2rem solid #ddd;
+}
+
+.RoutineChoice:hover {
+    cursor: pointer;
+}
+
+.RoutineChoice:focus {
+    background-color: rgb(243, 243, 243);
+    border-top: 0.2rem solid #ddd;
+    border-right: 0.2rem solid #ddd;
+    border-left: 0.2rem solid #ddd;
+}
+
+.NotesChoice {
+    width: 50%;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.NotesChoice:hover {
+    cursor: pointer;
+}
+
+.NotesChoice:focus {
+    background-color: rgb(243, 243, 243);
+    border-top: 0.2rem solid #ddd;
+    border-right: 0.2rem solid #ddd;
+    border-left: 0.2rem solid #ddd;
+}
+
+
+/* NOTE CSS */
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.2rem;
+}
+
+.note {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #f8f9fa;
+    /*
+    box-shadow: 0.5px 0.5px 2px rgb(39, 71, 255);
+    */
+    transition: 300ms;
+}
+
+.note:hover {
+    scale: 1.03;
+}
+
+.noteTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noteTitle img {
+    width: 1.2rem;
+}
+
+.note h6 {
+    margin-top: 0.2rem;
+    color: rgb(83, 83, 83);
+}
+
+.note p {
+    margin-top: 1rem;
+    color: rgb(31, 31, 31);
+    margin-bottom: 1.3rem;
+}
+
+.noteTags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.noteTag {
+    font-size: 1rem;
+    background-color: #e7ecef;
+    border-radius: 1rem;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    margin: 0rem 1rem 0.7rem 0rem;
+}
+
+
+
+/* ROUTINE CSS */
+
+.route {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.routine {
+    width: 90%;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 3px 5px #adb5bd;
+    transition: 300ms;
+}
+
+.routine:hover {
+    scale: 1.03;
+}
+
+.routineTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.routineColor {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: var(--groupColor);
+    margin-right: 1rem;
+}
+
+.routineTitleLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.routineTitleRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.routineTitleRight a {
+    margin-left: 1rem;
+}
+
+.routineTitleRight img {
+    width: 20px;
+}
+
+
+.routine h4 {
+    color: #6c757d;
+}
+
+.routine p {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.whenRoutineCreated {
+    color: #adb5bd;
+}
+
+.nowRoutine {
+    padding-left: 1rem;
+    color: #006fce;
+}

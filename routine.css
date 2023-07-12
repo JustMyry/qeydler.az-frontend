@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+.disable{
+    display: none;
+}
+.disable{
+    display: none;
+}
+
+.enable{
+    display: block;
+}
+.enable{
+    display: block;
+}
+/*******************************/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+
+header .logo {
+    width: 175px;
+    border-radius: 2rem;
+    transition: 300ms;
+}
+
+
+.navigators img {
+    width: 25px;
+}
+
+.navigators a {
+    margin: 0px 15px 0px 15px;
+    padding: 5px 5px 5px 5px;
+    transition: 300ms;
+}
+
+.navigators img:hover{
+    scale: 1.1;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.addRoutine, .addDay{
+    text-decoration: underline;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.title h2 {
+    font-size: 2rem;
+}
+
+.dividingLine {
+    width: 0.2rem;
+    background-color: #ddd;
+    margin: 0.5rem 1.8rem 0.5rem 0.5rem;
+}
+
+
+.items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.routine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.route {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.routine {
+    width: 90%;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 3px 5px #adb5bd;
+    transition: 300ms;
+}
+
+.routine:hover {
+    scale: 1.03;
+}
+
+.routineTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.routineColor {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: var(--groupColor);
+    margin-right: 1rem;
+}
+
+.routineTitleLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.routineTitleRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.routineTitleRight a {
+    margin-left: 1rem;
+}
+
+.routineTitleRight img {
+    width: 20px;
+}
+
+
+.routine h4 {
+    color: #6c757d;
+}
+
+.routine p {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.whenRoutineCreated {
+    color: #adb5bd;
+}
+
+.nowRoutine {
+    padding-left: 1rem;
+    color: #006fce;
+}
+
+
+
+
+
+.daygroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.day {
+    width: 230px;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 300ms;
+}
+
+.day:hover {
+    scale: 1.02;
+}
+
+.dayTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.dayTitle img {
+    width: 20px
+}
+
+.dayTitleLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dayTitleLeft h3 {
+    margin-left: 1rem;
+}
+
+.day p {
+    padding-bottom: 1rem;
+}
+
+.whenDayCreated {
+    color: #adb5bd;
+}
+
+.boxShadow{
+    box-shadow: 2px 4px 10px #adb5bd;
+    scale: 1.02;
+}
+
+.nowDay {
+    padding-right: 1rem;
+    color: #006fce;
+}
+
+
+
+
+
+
+
